@@ -1,0 +1,39 @@
+# Use postgres/example user/password credentials
+version: '3.8'
+
+services:
+
+  db:
+    image: postgres:13.9
+    restart: always
+    container_name: psql-etl
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: root
+    ports:
+      - 5432:5432
+    networks:
+      - pg-net
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - dataset:/home
+
+  adminer:
+    image: adminer
+    container_name: adminer-psql
+    restart: always
+    ports:
+      - 8080:8080
+    networks:
+      - pg-net
+
+networks:
+  pg-net:
+    name: pg-net
+
+volumes:
+  pgdata:
+    name: pgdata
+  dataset:
+    name: dataset
