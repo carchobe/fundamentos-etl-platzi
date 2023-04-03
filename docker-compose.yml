@@ -17,7 +17,6 @@ services:
       - pg-net
     volumes:
       - pgdata:/var/lib/postgresql/data
-      - dataset:/sources
 
 networks:
   pg-net:
