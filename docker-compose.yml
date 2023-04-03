@@ -25,5 +25,3 @@ networks:
 volumes:
   pgdata:
     name: pgdata
-  dataset:
-    name: dataset
