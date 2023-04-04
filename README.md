@@ -25,8 +25,8 @@ Nota: este proyecto lo ejecute en en una laptop con Xubuntu 22.04 y en otra lapt
   - para una pc con 32bits:
    `conda create --name py-etl --file etl-env32.txt`
   -  ….O tambien puedes crear el ambiente y usar las verisones mas recientes de los paquetes necesarios con el comando: `conda create -name py-etl pandas jupyter sqlalchemy psycopg2 boto3 pip`
-   Activa el ambiente con `conda activate py-etl`
-   Cuando termines de ejecutar todo el proyecto, desactiva el ambiente con `conda deactivate`.
+  4. Activa el ambiente con `conda activate py-etl`
+  5. Cuando termines de ejecutar todo el proyecto, desactiva el ambiente con `conda deactivate`.
 
 ## Ejecucion
 1. Ubicate en la carpeta del proyecto
