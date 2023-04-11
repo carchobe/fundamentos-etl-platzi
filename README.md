@@ -11,7 +11,6 @@ Ambos metodos de ejecucion son independientes uno del otro.
 - [Ejecucion en Jupyter](#Ejecucion-Jupyter)
 - [Ejecucion en Pentaho](#Ejecucion-Pentaho)
 - [Cierre](#Cierre)
-- [Autor](#Autor)
 - [Licencia](#Licencia)
 
 ## Requisitos
