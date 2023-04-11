@@ -1,4 +1,4 @@
-# ETL con Python y Pentaho (en progreso...)
+# ETL con Python y Pentaho
 Este es un pequeño proyecto para el [curso de fundamentos etl de platzi](https://platzi.com/cursos/fundamentos-etl/ "curso de fundamentos etl de platzi"). En este proyecto, tendremos datos de difrentes fuentes (SQL, JSON y CSV) los cuales deberemos extraer y traformar usando Python y Pentaho (ambas herramientas se usaran paralo mismo, pero a su manera). Cuando los datos esten limpios, pueden ser cargados para un mejor analisis.
 
 Ambos metodos de ejecucion son independientes uno del otro.
@@ -20,7 +20,7 @@ Ambos metodos de ejecucion son independientes uno del otro.
    - [Docker](https://docs.docker.com/get-docker/)
    - [Anaconda/miniconda](https://docs.anaconda.com/anaconda/install/)
 
-Nota: este proyecto lo ejecute en en una laptop con Xubuntu 22.04 y en otra laptop con Xubuntu 18.04
+Nota: este proyecto lo ejecute en en una laptop con Xubuntu 22.04 (64bits) y en otra laptop con Xubuntu 18.04 (32 bits)
 
 ## Instalacion
   1. Crea la carpeta en donde estara el proyecto: `mkdir fundamentos-etl`
