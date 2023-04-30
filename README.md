@@ -1,5 +1,5 @@
 # ETL con Python y Pentaho
-Este es un pequeño proyecto para el [curso de fundamentos etl de platzi](https://platzi.com/cursos/fundamentos-etl/ "curso de fundamentos etl de platzi"). En este proyecto, tendremos datos de difrentes fuentes (SQL, JSON y CSV) los cuales deberemos extraer y traformar usando Python y Pentaho (ambas herramientas se usaran paralo mismo, pero a su manera). Cuando los datos esten limpios, pueden ser cargados para un mejor analisis.
+Este es un pequeño proyecto para el [curso de fundamentos etl de platzi](https://platzi.com/cursos/fundamentos-etl/ "curso de fundamentos etl de platzi"). En este proyecto, tendremos datos de difrentes fuentes (SQL, JSON y CSV) los cuales deberemos extraer y traformar usando Python y Pentaho (ambas herramientas se usaran para lo mismo, pero a su manera). Cuando los datos esten limpios, pueden ser cargados para un mejor analisis.
 
 Ambos metodos de ejecucion son independientes uno del otro.
 
