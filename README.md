@@ -45,7 +45,7 @@ Nota: este proyecto lo ejecute en en una laptop con Xubuntu 22.04 (64bits) y en 
 `docker compose exec db psql`
 6. Dentro de PSQL,  ejecuta el comando 
 `\i sources/public_trades_small.sql`
-Con este comando estas importando la base datos SQL hacia PostgreSQL, esto puede taradar.
+Con este comando estas importando la base datos SQL hacia PostgreSQL, esto puede tardar.
 7. Listo, la base de datos esta cargada. puedes salirte de la terminal de PSQL escribiendo `exit`
 
 Ya la base de datos esta cargada y el contenedor esta ejecutandose. Ahora ya puedes abrir la jupyter notebook para ejecutar los pasos del proyecto usando una de dos formas. (Recuerda que tanto el entorno virtual de anaconda y el contenedor de PostgreSQL deben estar activados)
