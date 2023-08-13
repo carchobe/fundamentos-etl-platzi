@@ -29,7 +29,7 @@ Nota: este proyecto lo ejecute en en una laptop con Xubuntu 22.04 (64bits) y en 
    `conda create --name py-etl --file etl-env64.txt`
   - para una pc con 32bits:
    `conda create --name py-etl --file etl-env32.txt`
-  -  ….O tambien puedes crear el ambiente y usar las verisones mas recientes de los paquetes necesarios con el comando: `conda create -name py-etl pandas jupyter sqlalchemy psycopg2 pip`
+  -  ….O tambien puedes crear el ambiente y usar las verisones mas recientes de los paquetes necesarios con el comando: `conda create --name py-etl pandas jupyter sqlalchemy psycopg2 pip`
   4. Activa el ambiente con `conda activate py-etl`
   5. Cuando termines de ejecutar todo el proyecto, desactiva el ambiente con `conda deactivate`.
 
@@ -49,7 +49,7 @@ Con este comando estas importando la base datos SQL hacia PostgreSQL, esto puede
 7. Listo, la base de datos esta cargada. puedes salirte de la terminal de PSQL escribiendo `exit`
 
 Ya la base de datos esta cargada y el contenedor esta ejecutandose. Ahora ya puedes abrir la jupyter notebook para ejecutar los pasos del proyecto usando una de dos formas. (Recuerda que tanto el entorno virtual de anaconda y el contenedor de PostgreSQL deben estar activados)
-   1. Desde Vscode con la extension de jupter notebooks 
+   1. Desde Vscode con la extension de jupyter notebooks 
    2. Desde la teminal usando el comando `jupyter notebook`
    
 Cuando la notebook se ejecute, tendras la tabla final en dos ubicaciones distintas:
