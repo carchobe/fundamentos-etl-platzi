@@ -1,11 +1,13 @@
-# Use postgres/example user/password credentials
 version: '3.8'
 
 services:
 
   db:
-    image: postgres:etl
-    restart: always
+    build:
+      context: ./
+      dockerfile: pg.Dockerfile
+    image: db
+    restart: unless-stopped
     container_name: psql-etl
     environment:
       POSTGRES_USER: root
@@ -14,13 +16,13 @@ services:
     ports:
       - 5432:5432
     networks:
-      - pg-net
+      - etl-net
     volumes:
       - pgdata:/var/lib/postgresql/data
 
 networks:
-  pg-net:
-    name: pg-net
+  etl-net:
+    name: etl-net
 
 volumes:
   pgdata:

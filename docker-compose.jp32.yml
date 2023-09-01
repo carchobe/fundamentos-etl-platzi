@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+
+  jp:
+    build:
+      context: ./
+      dockerfile: jp32.Dockerfile
+    image: jp
+    restart: unless-stopped
+    container_name: jp-etl
+    depends_on:
+      - db 
+    ports:
+      - 8888:8888
+    networks:
+      - etl-net
+    entrypoint:
+      jupyter lab --ip='0.0.0.0' --no-browser --allow-root --ServerApp.token='' --ServerApp.password='' #--IdentityProvider.token='' --PasswordIdentityProvider.hashed_password=''
+    volumes:
+      - jpdata:/jp
+      - srcdata:/src
+    #env_file:
+    #  - jpdata/variables.env
+
+networks:
+  etl-net:
+    name: etl-net
+volumes:
+  jpdata:
+    name: jpdata
+  srcdata:
+    name: srcdata
+#include:
+#  - docker-compose.yml
