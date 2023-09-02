@@ -20,8 +20,8 @@ services:
     volumes:
       - jpdata:/jp
     #  - srcdata:/src
-    #env_file:
-    #  - jpdata/variables.env
+    env_file:
+      - ./variables.env
   db:
     build:
       context: ./
