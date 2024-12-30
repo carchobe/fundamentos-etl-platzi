@@ -11,6 +11,7 @@ Ambos metodos de ejecucion son independientes uno del otro.
 - [Ejecucion en Jupyter](#Ejecucion-Jupyter)
 - [Ejecucion en Pentaho](#Ejecucion-Pentaho)
 - [Cierre](#Cierre)
+- [Links](#Links)
 - [Licencia](#Licencia)
 
 ## Requisitos
@@ -85,6 +86,10 @@ Al terminar de ejecutar el proyecto, sigue los siguientes pasos para borrar todo
 1. Para apagar el contenedor recuerda ejecutar el comando `docker compose down`.
 2. Elimina el volumen con la informacion del contenedor con el comando `docker volume rm pgdata`
 3. Elimina la imagen que se creo con el comando `docker image rm postgres:elt`
+
+## Links
+   - [SQLAlchemy PostgreSQL connection](https://docs.sqlalchemy.org/en/20/core/engines.html#postgresql)
+   - [Connecting postgresql with sqlalchemy](https://stackoverflow.com/questions/9353822/connecting-postgresql-with-sqlalchemy)
 
 ## Licencia
 [Licencia MIT](https://choosealicense.com/licenses/mit/)
