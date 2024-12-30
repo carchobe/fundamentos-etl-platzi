@@ -90,6 +90,7 @@ Al terminar de ejecutar el proyecto, sigue los siguientes pasos para borrar todo
 ## Links
    - [SQLAlchemy PostgreSQL connection](https://docs.sqlalchemy.org/en/20/core/engines.html#postgresql)
    - [Connecting postgresql with sqlalchemy](https://stackoverflow.com/questions/9353822/connecting-postgresql-with-sqlalchemy)
+   - [Connecting PostgreSQL with SQLAlchemy in Python](https://www.geeksforgeeks.org/connecting-postgresql-with-sqlalchemy-in-python/)
 
 ## Licencia
 [Licencia MIT](https://choosealicense.com/licenses/mit/)
